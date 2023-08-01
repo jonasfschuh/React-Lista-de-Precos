@@ -77,8 +77,9 @@ Server
 
 Esse projeto está sob a licença MIT.
 
-<hr/>
 
-# Histórico alterações
+### Histórico alterações
 
 Teste jonas
+
+<hr/>
