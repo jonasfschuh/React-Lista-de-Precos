@@ -1,15 +1,17 @@
 <h1 align="center">
-    LOGIN E CRUD com MySQL
+    Lista de Preços 
+    - Tela de login 
+    - CRUD 
+    - Acesso ao banco de dados MySQL
 </h1>
-<h3 align="center"> 
-  🚧  Finalizado  🚧
-</h3>
 
 <p align="center">
   <a href="#-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-configurando-banco-de-dados">Banco de Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-bibliotecas-usadas">Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Lincença</a>
+  <a href="#-licença">Lincença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-histórico">Histórico alterações</a>
+  
 </p>
 
 ## 💻 Projeto
@@ -77,4 +79,6 @@ Esse projeto está sob a licença MIT.
 
 <hr/>
 
-Feito Por Hugo Nunes.
+# Histórico alterações
+
+Teste jonas
