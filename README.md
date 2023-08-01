@@ -7,10 +7,10 @@
 
 <p align="center">
   <a href="#histórico-de-alterações">Histórico de alterações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-configurando-banco-de-dados">Configurando Banco de Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-instruções-para-rodar-a-aplicação">Instruções para rodar a aplicações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-bibliotecas-utilizadas">Bibliotecas utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-demonstração">Demonstração</a>;  
+  <a href="#configurando-banco-de-dados">Configurando Banco de Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#instruções-para-rodar-a-aplicação">Instruções para rodar a aplicações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bibliotecas-utilizadas">Bibliotecas utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#demonstração">Demonstração</a>;  
 </p>
 
 # Descrição do projeto
