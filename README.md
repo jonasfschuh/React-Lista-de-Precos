@@ -10,7 +10,8 @@
   <a href="#-configurando-banco-de-dados">Banco de Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-bibliotecas-usadas">Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Lincença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-histórico-alterações">Histórico alterações</a>
+  <a href="#histórico-alterações">Histórico alterações</a>
+  
   
 </p>
 
