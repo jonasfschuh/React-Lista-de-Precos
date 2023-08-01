@@ -15,7 +15,7 @@
 
 # Descrição do projeto
 
-FURB - Fundação Universidade Regional de Blumenau 2023/2
+FURB - Fundação Universidade Regional de Blumenau 2023/2 
 Curso de Sistemas de Informação
 Projeto criado para a prova de suficiência da matéria Programação WEB
 
