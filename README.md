@@ -15,9 +15,9 @@
 
 # Descrição do projeto
 
-<p>FURB - Fundação Universidade Regional de Blumenau 2023/2.</p>
-<p>Curso de Sistemas de Informação</p>
-<p>Projeto criado para a prova de suficiência da matéria Programação WEB</p>
+FURB - Fundação Universidade Regional de Blumenau 2023/2<br>
+Curso de Sistemas de Informação<br>
+Projeto criado para a prova de suficiência da matéria Programação WEB<br>
 
 Objetivos: 
 - Tela de login: inclusão de novos usuários e login de usuários já cadastrados ao sistema.
@@ -25,11 +25,8 @@ Objetivos:
 - Acesso ao banco de dados MySQL
 
 # Histórico de alterações
-
-Notas: 
-
+Notas: <br>
 01/08/2023 - Criação de arquivos iniciais
-
 
 # Configurando Banco de Dados
  <p align="center">
@@ -38,9 +35,7 @@ Notas:
 </p>
 
 # Instruções para rodar a aplicação
-
 ```bash 
-
 Cliente
 1. $ cd client
 2. $ npm install 
@@ -50,11 +45,9 @@ Servidor
 1. Alterar a conexão no arquivo index.js da pasta "server", e colocar os dados da base mySQL
 2. $ cd server
 3. $ npm rum dev
-
 ```
 
 # Bibliotecas utilizadas
-
 Front-end:
 - React
 - Bootstrap
