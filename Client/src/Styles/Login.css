@@ -1,6 +1,11 @@
+.fundo-imagem-background {
+  width: 100%;
+  height: 100%;
+}
 
+/* lado esquerdo imagem */
 .left-login {
-  width: 50vw;
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -8,25 +13,23 @@
   flex-direction: column;
 }
 
-.left-login h1 {
-  color: #77ffc0;
-}
-
+/* lado direito login */
 .right-login {
   width: 50vw;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* card de login */
 .card-login {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 30px 35px;
+  padding: 30px 15px;
   background-color: #1A2E40;
   border-radius: 20px;
 }
@@ -38,7 +41,7 @@
 }
 
 .chart{
-  width: 80%;
+  width: 100%;
 }
 
 
@@ -94,31 +97,3 @@
   background: #B3DAF2;
   color: black;
 }
-
-@media (max-width: 950px){
-  .card-login{
-    width: 100%;
-  }
-}
-
-@media (max-width: 600px){
-  .body{
-    flex-direction: column;
-  }
-
-  .left-login {
-    width: 100%;
-    height: auto;
-  }
-
-  .right-login {
-    width: 100%;
-    height: auto;
-  }
-
-  .card-login {
-    width: 90%;
-    
-  }
-}
-

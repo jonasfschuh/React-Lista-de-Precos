@@ -11,6 +11,11 @@ header {
   background-color: #1A2E40;
 }
 
+.usuariologado {
+  color: lavender;
+  font-size: small;
+}
+
 .scroll{
   text-decoration: none;
   color: white;

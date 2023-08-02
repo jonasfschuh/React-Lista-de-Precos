@@ -11,7 +11,7 @@ export default function Card(props) {
     setOpen(true);
   };
   
-  const [editValues, setEditValues] = useState({
+  const [editValues] = useState({
     id: props.id,
     name: props.name,
     cost: props.cost,

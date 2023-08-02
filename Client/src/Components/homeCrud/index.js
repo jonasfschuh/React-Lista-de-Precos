@@ -3,13 +3,13 @@ import Axios from "axios";
 import Card from "../cards/card";
 import { FaSearch } from "react-icons/fa";
 import { FaRedo } from 'react-icons/fa';
-import { FaAngleUp } from 'react-icons/fa';
 import { TbLogout } from 'react-icons/tb'
 import axios from "axios";
+import "../../Styles/Card_homeCrud.css";
 
 export default function HomeCrud() {
   const [values, setValues] = useState();
-  const [listGames, setListGames] = useState();
+  const [listProducts, setlistProducts] = useState();
 
   function handleChangeValues(name, value) {
     setValues((prevValue) => ({
@@ -22,7 +22,7 @@ export default function HomeCrud() {
     const nome = values.pesquisa
     Axios.get(`http://localhost:3001/getCards/${nome}`)
       .then(({ data }) => {
-        setListGames(data);
+        setlistProducts(data);
       });
   }
 
@@ -38,7 +38,7 @@ export default function HomeCrud() {
 
   useEffect(() => {
     axios.get('http://localhost:3001/get')
-      .then(({ data }) => setListGames(data))
+      .then(({ data }) => setlistProducts(data))
   }, [values]);
 
   const sair = () => {
@@ -46,12 +46,14 @@ export default function HomeCrud() {
     window.location.reload();
   }
 
+  const logado = localStorage.getItem('login');
+
   return (
     <div className="content">
       <header className="py-3 mb-3 border-bottom">
         <div className="container-fluid d-grid gap-3 align-items-center header-display">
           <div class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-dark text-decoration-none dropdown">
-
+            <div className="usuariologado">Usuário:  { logado}</div>
           </div>
           <div className="container-fluid d-grid gap-3 align-items-center ">
             <div className="d-flex align-items-center">
@@ -115,21 +117,18 @@ export default function HomeCrud() {
         </button>
       </div>
 
-      {typeof listGames !== "undefined" &&
-        listGames.map((value) => {
+      {typeof listProducts !== "undefined" &&
+        listProducts.map((value) => {
           return (
             <Card
               key={value.id}
-              listCard={listGames}
-              setListCard={setListGames}
+              listCard={listProducts}
+              setListCard={setlistProducts}
               id={value.iditems}
               name={value.name}
               cost={value.cost} />
           );
         })}
-
-      <a className="scroll" href="#"><FaAngleUp/></a>
-
     </div>
   );
 }
